@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNrT+Lyx+9wbTh5w+Oj5xvu",
+      "authorship_tag": "ABX9TyO9bA3ABJvX0/5mvjTP5/3v",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,7 +23,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/aloburgos31/distance-calculator/blob/main/Untitled7.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/aloburgos31/distance-calculator/blob/main/distance_calculator.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -34,13 +34,19 @@
       },
       "outputs": [],
       "source": [
-        "import math\n",
+        "\n",
+        "\n",
+        "import math #Imports the math library.\n",
+        "\n",
+        "#Asks the coordinates for the distance formula.\n",
         "x_coordinate1=float(input(\"Enter x coordinate 1: \"))\n",
         "y_coordinate1=float(input(\"Enter y coordinate 1: \"))\n",
         "x_coordinate2=float(input(\"Enter x coordinate 2: \"))\n",
         "y_coordinate2=float(input(\"Enter y coordinate 2: \"))\n",
-        "distance=math.sqrt(pow((x_coordinate2-x_coordinate1), 2)+pow((y_coordinate2-y_coordinate1), 2))\n",
-        "print(f\"The distance between the points is {distance} units.\")\n",
+        "\n",
+        "distance=math.sqrt(pow((x_coordinate2-x_coordinate1), 2)+pow((y_coordinate2-y_coordinate1), 2))#Computes the distance formula.\n",
+        "\n",
+        "print(f\"The distance between the points is {distance} units.\") #Says the output of the distance formula.\n",
         "\n",
         "#Why is using a library more practical than writing all calculations from scratch? Explain briefly using your activity as an example.\n",
         "\n",
