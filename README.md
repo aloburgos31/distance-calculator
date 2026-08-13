@@ -17,7 +17,7 @@ y_coordinate2= Y Coordinate 2
 ```
 
 ## Sample Output
-"The distance between the points is 5 units."
+"The distance between the points is 7.0710678118654755 units."
 
 ## Author
 Name: Adriel Leo O. Burgos
