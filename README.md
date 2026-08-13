@@ -12,7 +12,7 @@ My program calculates the distance between different point.
 x_coordinate1= X Coordinate 1,
 y_coordinate1= Y Coordinate 1,
 x_coordinate2= X Coordinate 2,
-y_coordinate2= Y Coordinate 2,
+y_coordinate2= Y Coordinate 2
 
 ## Sample Output
 "The distance between the points is 5 units."
