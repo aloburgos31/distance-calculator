@@ -9,7 +9,10 @@ My program calculates the distance between different point.
 3. Enter the required values.
 
 ## Input Needed
-- The values that are needed to enter are x1, x2. y1, and y2.
+x_coordinate1= X Coordinate 1
+y_coordinate1= Y Coordinate 1
+x_coordinate2= X Coordinate 2
+y_coordinate2= Y Coordinate 2
 
 ## Sample Output
 "The distance between the points is 5 units."
